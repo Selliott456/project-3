@@ -90,7 +90,7 @@ const City = (props) => {
           See Users in {city.name}
         </button>
       </Link>}
-      {token && <a rel="noreferrer" target='_blank' href={process.env.CHAT_URL}>
+      {token && <a rel="noreferrer" target='_blank' href={'shers-chat-client.herokuapp.com'}>
         <button className="darkButton">
           Join Chat Room
         </button>
