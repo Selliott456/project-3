@@ -1,6 +1,6 @@
 ### ![GA](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png) General Assembly, Software Engineering Immersive 
  
-# Devs.Map 🌎
+# Devs.Map 
 
 Devs.Map is a travel sharing platform for developers.
 Users can create an account to share their experience in a particular city, add new city information it is not in the database and also chat, network with local like minded people.
@@ -106,13 +106,15 @@ Unfortunately unsplash had a demo limit for requests - 50 requests per hour. She
 ```
 Data was then exported, cleaned and converted into the correct format, making the above function redundant so it was removed from the code.
 
-##The Chat App
+## The Chat App
 
-I was in charge of creating a chat app using Web Sockets - you can access the code for this 
+I was in charge of creating a chat app using Web Sockets - you can access the code for the original client at https://github.com/Selliott456/ChatApp. 
+
+This component took me a solid few days to complete and I came across a few things I previously had no ideas about such as Cross Origin Resource Sharing and the issues that come out of that! I managed to sort the CORS issues when running the project locally thanks to the dedicated section the socket.io docs but when it came to launching it, the CORS issues returned due to the back and front end being hosted on different sites (FE netlify / BE heroku). Ultimately I was happy that I'd built it locally and drafted in the help of a Senior friend of mine to get to the bones of the problem. We ended up hosting the whole thing off of heroku. it can be found at https://shers-chat-client.herokuapp.com/
 
 
 ## Challenges
-Since this project was the first we worked on together via GitHub it was challenging sometimes to sync our work and merge the files. By the end of the week we improved a lot and got comfortable working remotely and using Git.
+Since this project was the first we worked on together via GitHub it was challenging sometimes to sync our work and merge the files. By the end of the week we improved a lot and became comfortable working remotely and using Git.
  
 ## Future enhancements.
 
@@ -127,7 +129,5 @@ As mentioned above, working with a remote team on this app provided an opportuni
 
 Overall, it was exciting to see how quickly the app took shape.
 As the first full stack project I have worked on to completion, it was a very enlightening experience to see how different technologies in the `MERN` stack relate to form a complete whole.
- 
-
 
 
