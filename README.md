@@ -108,9 +108,9 @@ Data was then exported, cleaned and converted into the correct format, making th
 
 ## The Chat App
 
-I was in charge of creating a chat app using Web Sockets - you can access the code for the original client at https://github.com/Selliott456/ChatApp. 
+I was in charge of creating a chat app using Web Sockets - you can access the code for the original client at  https://github.com/Selliott456/ChatApp. 
 
-This component took me a solid few days to complete and I came across a few things I previously had no ideas about such as Cross Origin Resource Sharing and the issues that come out of that! I managed to sort the CORS issues when running the project locally thanks to the dedicated section the socket.io docs but when it came to launching it, the CORS issues returned due to the back and front end being hosted on different sites (FE netlify / BE heroku). Ultimately I was happy that I'd built it locally and drafted in the help of a Senior friend of mine to get to the bones of the problem. We ended up hosting the whole thing off of heroku. it can be found at https://shers-chat-client.herokuapp.com/
+This component took me a solid few days to complete and I came across a few things I previously had no ideas about such as Cross Origin Resource Sharing and the issues that come out of that! I managed to sort the CORS issues when running the project locally thanks to the dedicated section the socket.io docs but when it came to launching it, the CORS issues returned due to the back and front end being hosted on different sites (FE netlify / BE heroku). Ultimately I was happy that I'd built it locally and drafted in the help of a Senior friend of mine to get to the bones of the problem. We ended up hosting the whole thing off of heroku. It can be found at https://shers-chat-client.herokuapp.com/
 
 
 ## Challenges
